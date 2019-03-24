@@ -52,6 +52,7 @@ def get_occupation(data, hometown)
     contestant_info.each do |indiv_contest|
       #binding.pry
       if indiv_contest["hometown"] == hometown
+        return indiv_contest["occupation"]
       end 
       
     end 
