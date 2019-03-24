@@ -67,6 +67,7 @@ total_age = 0
       contestant_info.each do |indiv_contest|
         #binding.pry
     total_age += indiv_contest["age"].to_i
+    contestant_counter +=1
     end 
   end 
 
