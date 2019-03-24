@@ -73,5 +73,5 @@ total_age = 0
 
 end 
 binding.pry
-
+return total_age / contestant_counter
 end
