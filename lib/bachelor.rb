@@ -69,8 +69,8 @@ total_age = 0
     total_age += indiv_contest["age"].to_i
     end 
   end 
-  binding.pry
-end 
 
+end 
+binding.pry
 
 end
