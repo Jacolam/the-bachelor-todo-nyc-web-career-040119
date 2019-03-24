@@ -72,6 +72,6 @@ total_age = 0
   end 
 
 end 
-binding.pry
+#binding.pry
 return (total_age.to_f/contestant_counter).round
 end
