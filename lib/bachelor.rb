@@ -48,7 +48,15 @@ end
 
 def get_occupation(data, hometown)
   
-  
+  data.each do |season_x , contestant_info|
+    contestant_info.each do |indiv_contest|
+      #binding.pry
+      if indiv_contest["hometown"] == hometown
+      end 
+      
+    end 
+    
+  end 
   
 end
 
