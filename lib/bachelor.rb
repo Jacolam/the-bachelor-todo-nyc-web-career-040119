@@ -61,7 +61,6 @@ end
 def get_average_age_for_season(data, season)
 contestant_counter = 0
  data.each do |season_x , contestant_info|
-   binding.pry
     if season_x == season
       binding.pry
       contestant_info.each do |indiv_contest|
