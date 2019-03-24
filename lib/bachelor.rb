@@ -59,7 +59,7 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-contestant_counter = 1
+contestant_counter = 0
 total_age = 0
  data.each do |season_x , contestant_info|
     if season_x == season
@@ -73,5 +73,5 @@ total_age = 0
 
 end 
 binding.pry
-average = total_age/contestant_counter
+return total_age/contestant_counter
 end
