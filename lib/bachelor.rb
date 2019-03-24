@@ -60,12 +60,13 @@ end
 
 def get_average_age_for_season(data, season)
 contestant_counter = 0
+total_age = 0
  data.each do |season_x , contestant_info|
     if season_x == season
       #binding.pry
       contestant_info.each do |indiv_contest|
         #binding.pry
-    total_age = total_age + indiv_contest["age"].to_i
+    total_age += indiv_contest["age"].to_i
     end 
   end 
   binding.pry
