@@ -72,6 +72,6 @@ total_age = 0
   end 
 
 end 
-#binding.pry
-return (total_age/contestant_counter).ceil1
+binding.pry
+return (total_age/contestant_counter).ceil
 end
