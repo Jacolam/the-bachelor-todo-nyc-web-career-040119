@@ -63,8 +63,8 @@ contestant counter = 0
  data.each do |season_x , contestant_info|
     if season_x == season
     total age  = contestant_info.map do |indiv_contest|
-    indiv_contest["hometown"] == hometown
-        
+    indiv_contest["age"].to_i
+        binding.pry
     end 
   end 
 end 
