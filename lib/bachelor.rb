@@ -64,7 +64,7 @@ contestant_counter = 0
     if season_x == season
       #binding.pry
       contestant_info.each do |indiv_contest|
-        binding.pry
+        #binding.pry
     total_age += indiv_contest["age"].to_i
     end 
   end 
